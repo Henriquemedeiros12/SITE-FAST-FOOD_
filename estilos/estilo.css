@@ -259,3 +259,10 @@ body, html {
     text-align: center;
     cursor: pointer;
 }
+
+.but_pedido:hover {
+    transform: scale(1.1);
+    transition-duration: .2s;
+    box-shadow: 2px 2px 2px #0D0D0D;
+    background: #0d0d0d33;
+}
