@@ -9,6 +9,47 @@ desktop: 992px até 1200px
 grandes telas: acima de 1200px 
 */
 
+
+@media screen and (min-width: 300px) {
+    body {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .titu {
+        text-align: center;
+        font-size: 20pt;
+    }
+
+    .pai {
+        animation: none;
+        position: relative;
+    }
+
+    .filho {
+        position: absolute;
+        width: 400px;
+        height: 480px;
+        background-color: transparent;
+        backdrop-filter: blur(5px);
+        top: 50%;
+        left: 20%;
+        transform: translate(-12%, 5%);
+        border-radius: 10px;
+        border:none;
+        box-shadow: 7px 8px 14px #0D0D0D;
+        align-items: center;
+    }
+    
+    .dest_1  {
+        display: none;
+    }
+
+}
+
 @media screen and (min-width: 500px) {
     body {
         background-position: center center;
